@@ -55,7 +55,7 @@ const RoomDetails = () => {
 
         </div>
         <div className="w-full h-full lg:w-[40%]">
-          <div className='py-8 px-6 bg-accent/20 mb-12'>
+          <div className='py-8 px-6 bg-accent/20 mb-12 border rounded-xl'>
             <div className='flex flex-col space-y-4 mb-4'>
               <h1 className='h3'>Your Reservation</h1>
               <div className='h-[60px]'>
