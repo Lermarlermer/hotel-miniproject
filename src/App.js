@@ -6,6 +6,7 @@ import RoomDetails from './pages/RoomDetails'
 
 // React router
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Contact from './components/Contact';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: '/room/:id',
     element: <RoomDetails/> 
+  },
+  {
+    path: '/contact',
+    element: <Contact/> 
   }
 ]);
 

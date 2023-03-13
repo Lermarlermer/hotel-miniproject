@@ -43,7 +43,7 @@ const HeroSlider = () => {
      key={slider.id} className='heroSlider h-[600px] lg:h-[860px]'>
       {slider.map((slide, index) => {
         const {id, title, bg, btnText} = slide;
-        return <SwiperSlide className='h-full bg-pink-400 relative flex justify-center items-center' key={id}>
+        return <SwiperSlide className='h-full  relative flex justify-center items-center' key={id}>
           <div className='z-20 text-white text-center'>
             <div className='uppercase font-tertiary tracking-[6px] mb-5'>
               Just Enjoy and relax
